@@ -2,7 +2,7 @@ NAME: Jordan Stone
 
 CONTENTS:
 All program code is written in Python and are in the .py format.
-	Folder hw1jls564:
+	Folder Project1:
 		README.txt - text document detailing the files submitted in this project and
 		completeness of every section of the project.
 
