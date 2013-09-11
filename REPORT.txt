@@ -1,0 +1,41 @@
+REPORT:
+
+p3 Report Findings:
+I timed my lists at 2000, 4000, and 8000 elements for every method.
+
+INSERT(Front):
+	After analysis on times for the Python list, array ADT and pointer ADT, it
+	appears all 3 exhibit time limited at O(n). When the size of
+	the count is doubled, the time generally appears to be closer to double
+	than to quadruple. 
+
+INSERT(Back):
+	Analysis here shows that the time is even more generally at O(n). 
+	Pointer in this case appears to be limited at a higher rate though, 
+	likely closer to O(n^2).
+
+RETRIEVE:
+	Retrieve also looks to be limited at O(n) except in the case of pointer, 
+	which appears to be limited at a higher rate.
+
+DELETE(Front):
+	This looks more likely to be limited at O(n^2) in the cases of the Python
+	list and array, but closer to O(n) for pointer.
+
+DELETE(Back):
+	Still very much in the same range - Python list and array still are closer
+	to O(n^2) and pointer is limited around O(n).
+
+
+p4 Report Findings:
+I timed the stacks at 10000, 15000, and 20000 as these were generally faster
+and required larger sizes to get more usable times.
+
+PUSH:
+	Push appears to be limited at O(1) for the Python stack and array ADT,
+	although pointer's reported times are odd as they decrease and then
+	increase again with size.
+
+POP:
+	Pop also looks to be O(1), and for this all stacks tested generally
+	agree.
